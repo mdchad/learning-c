@@ -3,8 +3,21 @@
 /* A single-line comment */
 // C++ style comment also is possible
 
+/*
+ * \a  | Alert
+ * \b  | backspace
+ * \f  | form feed
+ * \n  | new line
+ * \r  | carriage return
+ * \t  | horizontal tab
+ * \v  | vertical tab
+ * \'  | single quote
+ * \"  | double quote
+ * \?  | quetion mark
+ */
+
 int main(void)
 {
-  printf("Hello, Sofia!\n");
+  printf("Hello, Munir!\tColumn\n");
   return 0;
 }
