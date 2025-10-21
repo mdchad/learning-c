@@ -57,7 +57,7 @@
 [
   {
     "label": "C : Build and Run",
-    "command": "clang $ZED_FILE -o ./first/a.out && ./first/a.out",
+    "command": "clang $ZED_FILE -o $ZED_DIRNAME/$ZED_STEM.out && $ZED_DIRNAME/$ZED_STEM.out",
     "use_new_terminal": false,
     "reveal": "always"
   }
